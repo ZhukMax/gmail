@@ -1,0 +1,23 @@
+{
+    "name": "zhukmax/gmail",
+    "description": "Package for easy using Gmail Api",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Zhukmax\\Gmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZhukMax",
+            "email": "zhukmax@ya.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "google/apiclient": "^2.0",
+        "ext-json": "*"
+    }
+}
